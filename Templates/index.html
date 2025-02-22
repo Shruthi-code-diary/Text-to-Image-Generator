@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #F2E9E4;
+        }
+        .container {
+            text-align: center;
+        }
+        h2 {
+            color: #9A8C98;
+            font-size: 64px;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="password"] {
+            width: 250px;
+            outline: none;
+            /* border-color: #615660;  */
+            box-shadow: 0 0 0 3px #615660; 
+            padding: 20px;
+            margin-top: 15px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 32px
+        }
+        input[type="submit"] {
+            width: 250px;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #9A8C98;
+            color: #fff;
+            cursor: pointer;
+            font-size: 28px;
+        }
+        input[type="submit"]:hover {
+            background-color: #615660;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Login with your Password</h2>
+    <form action="/second_page" method="post">
+    
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>

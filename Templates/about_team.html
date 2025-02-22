@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #F2E9E4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 90px auto;
+            padding: 100px;
+            background-color: #9A8C98;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: white;
+        }
+        .team-members {
+            margin-bottom: 50px;
+        }
+        .about-project {
+            margin-top: 20px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 30px 50px;
+            margin: 0 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #9A8C98;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #615660;
+        }
+    </style>
+</head>
+<body>
+
+<button class="back-button" onclick="goBack()">Back</button>
+
+<div class="container">
+    <h2>TEAM MEMBERS:</h2>
+    <div class="team-members">
+        <p>1BY20AI026 - Manasa M</p>
+        <p>1BY20AI031 - Naksha B P</p>
+        <p>1BY20AI045 - Sangeetha Prabhu</p>
+        <p>1BY20AI061 - Vaishnavi Deshpande</p>
+    </div>
+    <h2>ABOUT PROJECT:</h2>
+    <div class="about-project">
+        <p>In recent years, the synthesis of realistic images from textual descriptions has garnered significant attention in the field of artificial intelligence. With the advancement of deep learning techniques, particularly generative models, researchers have made remarkable strides in bridging the semantic gap between natural language and visual understanding.</p>
+        <p>This project aims to explore the potential of Stable Diffusion Models (SDMs) in the domain of Text-to-Image synthesis. SDMs have emerged as a promising class of generative models capable of producing high-quality images with fine-grained details. Leveraging the diffusion process, which progressively refines a noise signal into a target image, SDMs offer a unique approach to generating visually coherent outputs.</p>
+    </div>
+</div>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+</body>
+</html>
